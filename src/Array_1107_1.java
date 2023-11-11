@@ -4,7 +4,7 @@ public class Array_1107_1 {
         char[] myArray = new char[26];
         for(int i = 0 ; i < myArray.length ; i++) {
             myArray[i] = (char)('A' + i) ;
-            System.out.println(myArray[i]);
+            System.out.print(myArray[i]+" ");
         }
 
     }
